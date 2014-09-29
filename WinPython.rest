@@ -1,8 +1,7 @@
-##############################
-Welcome to the winpython wiki!
-##############################
+Releases
+########
 
-Current stable releases (9-Sep-2014):
+Current stable releases, as of 9-Sep-2014:
 
 - `WinPython 2.7 <http://sourceforge.net/projects/stonebig.u/files/Winpython_2.7>`_
 - `WinPython 3.3 <http://sourceforge.net/projects/stonebig.u/files/Winpython_3.3>`_
