@@ -2,6 +2,8 @@ _Wiki under construction_
 
 Winpython works fine in Windows Vista, 7 and XP just by extracting it to your favorite place.
 
+Also see the old wiki page at the [outdated project on sourceforge](http://sourceforge.net/p/winpython/wiki/Installation/).
+
 ## Windows XP
 
 Windows XP is not supported by Winpython and we don't recommend to run it nevertheless. If you really need to use Winpython on XP, you will get errors like `OSError: [WinError 127]"` and a `Procedure not found` at the end of the backtraces. This comes from the zmq library which depends on a DLL not existing in XP. There's a workaround described in [#17](https://github.com/winpython/winpython/issues/17):
