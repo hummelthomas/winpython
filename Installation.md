@@ -1,8 +1,12 @@
 _Wiki under construction_
 
-Winpython works fine in Windows Vista, 7 and XP just by extracting it to your favorite place.
-
 Also see the old wiki page at the [outdated project on sourceforge](http://sourceforge.net/p/winpython/wiki/Installation/).
+
+## Windows Vista, 7 and 8
+
+Winpython works fine in Windows **Vista**, **7** and **8** just by extracting it to your favorite place.
+
+Older systems like Windows Server 2003 and Windows XP are not no longer supported. You may are able to run your programs, but Ipython (and thus Spyder) is defintely broken, unless you apply the workaround described in the next section. As we don't test our releases on these platforms we cannot guarantee incompatibilites and unexpected behavior.
 
 ## Windows XP
 
