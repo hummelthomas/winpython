@@ -1,6 +1,26 @@
-_Wiki under construction_
+# Installation
 
-Also see the old wiki page at the [outdated project on sourceforge](http://sourceforge.net/p/winpython/wiki/Installation/).
+As WinPython is a portable distribution, the installer only copies compressed files to the specified destination directory. To *install* in terms of *register* your distribution in the system, see the section [Registration](#Registration) on this page.
+
+# Settings
+
+All installed Python packages store their settings in `[WINPYTHON_DIR]\settings` instead of a user profile directory (e.g. `C:\Users\username`), hence allowing to move your settings with your favorite distribution, in a portable way. This is the default behavior but it can be changed by simply removing the `[WINPYTHON_DIR]\settings` folder, forcing WinPython to use the user profile directory instead. 
+
+# Registration
+
+The WinPython Control Panel allows to *register* your WinPython distribution to Windows.
+
+![Winpython Control Panel>Advanced>Register distribution](https://winpython.github.io/images/wpcp_register_2741.png)
+
+Registering your WinPython installation will:
+
+- associate file extensions `.py`, `.pyc` and .pyo to Python interpreter
+- register Python icons in Windows explorer
+- add context menu entries Edit with IDLE and Edit with Spyder for `.py` files
+- register WinPython as a standard Python distribution in the registry (the same way as the standard Python Windows installers will do)
+
+
+# Operating Systems
 
 ## Windows Vista, 7 and 8
 
