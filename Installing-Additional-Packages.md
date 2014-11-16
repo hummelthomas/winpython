@@ -9,6 +9,10 @@ Instead of using the WPPM you can execute the binary directly, if you've registe
 
 # Other packages
 
-Using the *Winpython Command Window* you are able to use [*pip*](https://pip.readthedocs.org/en/latest/) directly to install packages from [PyPI](http://pypi.python.org/) for example.
+Using the *Winpython Command Prompt* you are able to use [*pip*](https://pip.readthedocs.org/en/latest/) directly to install packages from [PyPI](http://pypi.python.org/) for example:
 
-It is also possible to open any downloaded packages in the WPPM to install them.
+```bash
+pip install flake8
+```
+
+It is also possible to open any downloaded packages (usually `.tar.gz` files containing the Python-files) in the WPPM to install them.
