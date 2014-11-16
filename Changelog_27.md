@@ -1,3 +1,105 @@
+## History of changes for WinPython 2.7.8.1
+
+
+
+The following changes were made to WinPython distribution since version 2.7.6.4.
+
+
+
+### Tools
+
+
+
+New packages:
+
+
+
+  * [MinGW32](http://www.mingw.org) 4.8.1 ((32-bit version only) Windows specific header files and import libraries, C/C++ and Fortran compilers)
+
+
+
+### Python packages
+
+
+
+New packages:
+
+
+
+  * [brewer2mpl](http://pypi.python.org/pypi/brewer2mpl) 1.4 () 
+  * [ggplot](https://github.com/yhat/ggplot) 0.6.5 (ggplot for python)
+  * [ipython-sql](http://ipython.org) 0.3.3 (Enhanced Python shell)
+  * [Jinja2](http://jinja.pocoo.org) 2.7.3 (Sandboxed template engine (provides a Django-like non-XML syntax and compiles templates into executable python code))
+  * [julia]() 0.1.1.2 () 
+  * [joblib](http://pypi.python.org/pypi/joblib) 0.8.2 () 
+  * [mpld3](http://pypi.python.org/pypi/mpld3) 0.2 () 
+  * [mysql-connector-python](http://pypi.python.org/pypi/mysql-connector-python) 1.2.2 () 
+  * [pep8](http://pypi.python.org/pypi/pep8) 1.5.7 ()
+  * [pg8000](http://pypi.python.org/pypi/pg8000) 1.9.14 ()
+  * [pyflakes](http://pypi.python.org/pypi/pyflakes) 0.8.1 ()
+  * [pyodbc](http://pypi.python.org/pypi/pyodbc)  3.0.7 () 
+  * [reportlab](http://www.reportlab.org) 3.1.8 (The PDF generation library)
+  * [rope](http://pypi.python.org/pypi/rope) 0.10.2 ()
+  * [rpy2](http://pypi.python.org/pypi/rpy2) 2.4.3 ()
+  * [sqlite_bro](https://github.com/stonebig/sqlite_bro) 0.8.6 (a graphic SQLite Client in 1 Python file)
+  * [seaborn](http://pypi.python.org/pypi/seaborn) 0.3.1 ()
+  * [ViTables](http://vitables.org) 2.1 (Graphical tool for browsing and editing files in both HDF5 and PyTables formats)
+
+
+
+Upgraded packages:
+
+
+
+  * [astroid](http://pypi.python.org/pypi/astroid) 1.0.1 → 1.2.0 (Rebuild a new abstract syntax tree from Python's ast (required for pylint))
+  * [colorama](http://pypi.python.org/pypi/colorama) 0.2.7 → 2.5.2 (Cross-platform colored terminal text)
+  * [cx_Freeze](http://cx-freeze.sourceforge.net) 4.3.2 → 4.3.3 (Deployment tool which converts Python scripts into stand-alone Windows executables (i.e. target machine does not require Python or any other library to be installed))
+  * [docutils](http://docutils.sourceforge.net) 4.3.2 →  0.12 (Text processing system for processing plaintext documentation into useful formats, such as HTML or LaTeX (includes reStructuredText))
+  * [guidata](http://packages.python.org/guidata) 1.6.1 → 1.6.2 (Automatically generated graphical user interfaces for easy data set edition and display)
+  * [h5py](http://code.google.com/p/h5py/) 2.2.1 → 2.3.1 (General-purpose Python interface to HDF5 files (unlike PyTables, h5py provides direct access to the full HDF5 C library))
+  * [ipython](http://ipython.org) 2.0.0 → 2.2.0 (Enhanced Python shell)
+  * [Jinja2](http://jinja.pocoo.org) 2.7.2 → 2.7.3 (Sandboxed template engine (provides a Django-like non-XML syntax and compiles templates into executable python code))
+  * [mahotas](http://pypi.python.org/pypi/mahotas) 1.1.1 → 1.2.1 (Computer Vision library)
+  * [MarkupSafe](http://pypi.python.org/pypi/MarkupSafe) 0.18 →  0.23 (Implements a XML/HTML/XHTML Markup safe string for Python)
+  * [networkx](http://pypi.python.org/pypi/networkx) 1.8.1 → 1.9 (Python package for creating and manipulating graphs and networks)
+  * [nose](http://somethingaboutorange.com/mrl/projects/nose) 1.3.1 → 1.3.3 (nose is a discovery-based unittest extension (e.g. NumPy test module is using nose))
+  * [numexpr](http://code.google.com/p/numexpr) 2.3.1 → 2.4 (Fast evaluation of array expressions elementwise by using a vector-based virtual machine)
+  * [numpy-MKL](http://numpy.scipy.org/) 1.8.1 → 1.8.2 (NumPy: multidimensional array processing for numbers, strings, records and objects (SciPy's core module))
+  * [pandas](http://pypi.python.org/pypi/pandas) 0.13.1 → 0.14.1 (Powerful data structures for data analysis, time series and statistics)
+  * [patsy](http://pypi.python.org/pypi/patsy) 0.2.1 → 0.3.0 (Describing statistical models using symbolic formulas)
+  * [Pillow](http://pypi.python.org/pypi/Pillow) 2.4.0 → 2.5.2 (Python Imaging Library (fork))
+  * [pip](http://pypi.python.org/pypi/pip) 1.5.0 → 1.5.6 (A tool for installing and managing Python packages)
+  * [psutil](http://code.google.com/p/psutil) 1.5.0 → 2.1.1 (Provides an interface for retrieving information on all running processes and system utilization (CPU, disk, memory, network) in a portable way))
+  * [pylint](http://www.logilab.org/project/pylint) 1.1.0 → 1.3.0 (Logilab code analysis module: analyzes Python source code looking for bugs and signs of poor quality)
+  * [PyOpenGL](http://pyopengl.sourceforge.net) 3.0.2 → 3.1.0 (Cross platform Python binding to OpenGL and related APIs)
+  * [pyparsing](http://pyparsing.wikispaces.com/) 2.0.1 →  2.0.2 (A Python Parsing Module)
+  * [PyQt4](http://pypi.python.org/pypi/PyQt4) 4.9.6.1 → 4.10.4 () 
+  * [pytz](http://pytz.sourceforge.net/) 2013.9 → 2014.4 (World Timezone Definitions for Python)
+  * [pywin32](http://sourceforge.net/projects/pywin32) 218.5 → 219 (Python library for Windows)
+  * [pyzmq](http://pypi.python.org/pypi/pyzmq) 14.0.1 → 14.3.1 (Lightweight and super-fast messaging based on ZeroMQ library (required for IPython Qt console))
+  * [reportlab](http://www.reportlab.org) 3.0 → 3.1.8 (The PDF generation library)
+  * [setuptools](http://pypi.python.org/pypi/setuptools) 3.4.4 → 5.4.2 (Download, build, install, upgrade, and uninstall Python packages - easily)
+  * [scikit-image](http://pypi.python.org/pypi/scikit-image) 0.9.3 → 0.10.1 (Image processing toolbox for SciPy)
+  * [scikit-learn](http://pypi.python.org/pypi/scikit-learn) 0.14.1 → 0.15.1 (A set of Python modules for machine learning and data mining)
+  * [scipy](http://www.scipy.org) 0.13.3 → 0.14.0 (SciPy: Scientific Library for Python (advanced math, signal processing, optimization, statistics, ...))
+  * [simplejson](http://pypi.python.org/pypi/simplejson) 3.3.3 → 3.6.2 (Simple, fast, extensible JSON (JavaScript Object Notation) encoder/decoder)
+  * [six](http://pypi.python.org/pypi/six) 1.6.1 → 1.7.2 (Python 2 and 3 compatibility utilities)
+  * [spyder](https://bitbucket.org/spyder-ide/spyderlib) 2.3.0beta2 → 2.3.0 (Scientific PYthon Development EnviRonment: designed for interactive computing and data visualisation with a simple and intuitive user interface)
+  * [SQLAlchemy](http://www.sqlalchemy.org) 0.9.4 → 0.9.7 (SQL Toolkit and Object Relational Mapper)
+  * [tornado](http://pypi.python.org/pypi/tornado) 3.2 → 4.0.1 (Scalable, non-blocking web server and tools (required for IPython notebook))
+
+
+
+Removed packages:
+
+
+
+  * [PySide](https://pypi.python.org/pypi/PySide) 1.2.2 (Python binding of the cross-platform GUI toolkit Qt)
+  * [vispy](http://pypi.python.org/pypi/vispy) 0.2.1 () 
+
+
+* * *
+
 ## History of changes for WinPython 2.7.6.4
 
 The following changes were made to WinPython distribution since version 2.7.6.3.
