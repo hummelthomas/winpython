@@ -8,8 +8,6 @@ The following changes were made to WinPython distribution since version 3.3.5.2.
 
 ### Tools
 
-Upgraded tools: 
-  * [MinGW32](http://pypi.python.org/pypi/MinGW32)  4.8.1 (C/C++ and Fortran compilers (http://www.mingw.org for 32-bit) (https://github.com/numpy/numpy/wiki/Mingw-static-toolchain for 64bit))
 
 
 Removed packages:
@@ -59,6 +57,10 @@ Upgraded packages:
 
 The following changes were made to WinPython distribution since version 3.3.5.1.
 
+### Tools
+
+Upgraded tools: 
+  * [MinGW32](http://pypi.python.org/pypi/MinGW32)  4.8.1 (C/C++ and Fortran compilers (http://www.mingw.org for 32-bit) (https://github.com/numpy/numpy/wiki/Mingw-static-toolchain for 64bit))
 
 
 ### Python packages
