@@ -43,7 +43,7 @@ Upgraded packages:
   * [julia](http://sourceforge.net/projects/stonebig.u/files/packages) 0.1.1.4 → 0.1.1.5 (Python interface to the Julia language)
   * [mahotas](http://pypi.python.org/pypi/mahotas) 1.2.1 → 1.2.3 (Computer Vision library)
   * [matplotlib](http://matplotlib.sourceforge.net) 1.4.1 → 1.4.2 (2D plotting library (embeddable in GUIs created with PyQt))
-  * [numpy-MKL](http://numpy.scipy.org/) 1.8.2 → 1.9.1 (NumPy: multidimensional array processing for numbers, strings, records and objects (SciPy''s core module))
+  * [numpy-MKL](http://numpy.scipy.org/) 1.8.2 → 1.9.1 (NumPy: multidimensional array processing for numbers, strings, records and objects (SciPy's core module))
   * [pandas](http://pypi.python.org/pypi/pandas) 0.15.0 → 0.15.1 (Powerful data structures for data analysis, time series and statistics)
   * [pyzmq](http://pypi.python.org/pypi/pyzmq) 14.3.1 → 14.4.1 (Lightweight and super-fast messaging based on ZeroMQ library (required for IPython Qt console))
   * [simplejson](http://pypi.python.org/pypi/simplejson) 3.6.4 → 3.6.5 (Simple, fast, extensible JSON (JavaScript Object Notation) encoder/decoder)
