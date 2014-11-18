@@ -10,3 +10,9 @@ Wiki page | Description
 [WinPython 3.3 Changes](../ChangeLog_33) | History of changes for WinPython 3.3
 [WinPython 3.4 Changes](../ChangeLog_34) | History of changes for WinPython 3.4
 
+### Other topics
+
+Wiki page | Description
+----------|------------
+[Installation](../Installation) | Installation, requirements, registration
+[Installing Additional Packages](../Installing-Additional-Packages) | How to install python packages that are not included in Winpython
