@@ -2,7 +2,7 @@
 
 **Two major versions** of the Python programming language are currently maintained: [Python 2 and Python 3](http://wiki.python.org/moin/Python2orPython3).
 
-In 2014, **Python 3.4 is the suggested version for most situations**, but some users may prefer Python 2.7 (or Python 3.3 ) for whatever reason.
+In November 2014, **Python 3.4 is the suggested version for most situations**, but some users may prefer Python 2.7 (or Python 3.3 ) for whatever reason.
 
 As a consequence : 
 - WinPython also provides a version for Python 3.3 and Python 2.7,
