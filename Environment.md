@@ -1,6 +1,6 @@
 ## General behavior
 
-The default behavior of WinPython regarding your machine configuration is to keep a low profile: no key is added to Windows registry, no shortcut is added to Windows start menu, and so on (unless you [register](https://sourceforge.net/p/winpython/wiki/Installation#Registration) your distribution). 
+The default behavior of WinPython regarding your machine configuration is to keep a low profile: no key is added to Windows registry, no shortcut is added to Windows start menu, and so on (unless you [register](https://github.com/winpython/winpython/wiki/Installation#Registration) your distribution). 
 
 Similarly, the environment variables are almost not affected by WinPython, except for the `PATH` environment variable which is modified at runtime by prepending and appending some required WinPython paths. But the original `PATH` contents are still there. This may cause conflict issues from time to time, hence the next section. 
 
