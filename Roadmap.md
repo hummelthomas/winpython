@@ -5,7 +5,7 @@
 - direction followed : 
   - "Education": IDE, SQL tools, notebook tutorials, graphics and interactivity
   - "Data Science": Pandas, StatModels, SQL, Compilers
-  - "Open Science": Jupyter/Ipython : the Browser to do and share everything.
+  - "Open Science": Jupyter/Ipython, the Browser to do and share everything.
 
 ### Plan to keep alive and improving Winpython
 - simplicity:
