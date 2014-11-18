@@ -12,7 +12,7 @@
    - examples and tutorials in "Notebook" format,
    - complete out-of-the-box,
 - flexibility:
-   - easy to further complete in a "portable" way (zip and distribute your modified Winpython),
+   - easy to further complete in a "portable" way (zip and distribute your "mod" Winpython),
    - Flavor of the month (Winpython + added packages in a domain)
 - fun:
    - make "I built my first Winpython !" a simple experience for advanced users,
