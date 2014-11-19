@@ -4,8 +4,8 @@
 - every 4 to 8 weeks (next = december 2014)
 - direction followed : 
   - **Education**: IDE, SQL tools, notebook tutorials, graphics and interactivity
-  - **Data Science**: Pandas, StatModels, SQL, Machine Learning, Web Scraping
-  - **Open Science**: Jupyter/Ipython, the Browser to do and share everything.
+  - **Data Science**: Pandas, StatModels, SQL, Machine Learning, Web Scraping, SpreadSheets
+  - **Open Science**: Jupyter/Ipython, the Browser to do and share everything, containers
 
 ### Plan to keep alive and improving Winpython
 - **simplicity**:
