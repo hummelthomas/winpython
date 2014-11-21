@@ -15,4 +15,4 @@ Flavors
 Flavors Made : (one time) 
 
 - FlavorKivy = Winpython 2014-10 + Kivy-1.8.0 + pygame-1.9.2a0 (games creation oriented)
-- FlavorIGraph = Winpython 2014-10 + pycairo-1.10.0 + python-igraph-0.7.0 (network analysis complement)
+- FlavorIgraph = Winpython 2014-10 + pycairo-1.10.0 + python-igraph-0.7.0 (network analysis complement)
