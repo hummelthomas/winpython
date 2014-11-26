@@ -15,6 +15,6 @@ Using the *Winpython Command Prompt* you are able to use [*pip*](https://pip.rea
 pip install flake8
 ```
 
-![](https://imgur.com/pXATvsc)
+![pip Screenshot](https://imgur.com/pXATvsc)
 
 It is also possible to open any downloaded packages (usually `.tar.gz` files containing the Python-files) in the WPPM to install them.
