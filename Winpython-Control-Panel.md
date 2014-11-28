@@ -3,6 +3,8 @@ The Winpython Control Panel (WPCP) has two principal functionalities:
   * Management of installed packages
   * Registering Winpython as Python-Interpreter
 
+![Winpython Control Panel scene](images/wpcp.png)]
+
 # Package management
 
 To get a list of installed packages, switch to tab *Uninstall packages* and browse through the list.
