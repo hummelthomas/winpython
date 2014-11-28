@@ -13,3 +13,6 @@ Winpython comes with quite a few included programs, here is a list with some exp
   * WinPython Command Promt (`WinPyton Command Prompt.exe`) - A command shell with loaded Winpython programs (all installed programs too, e.g. pip, nose, etc.)
   * [[WinPython Control Panel]] (`WinPyton Control Panel.exe`)
   * WinPython Interpreter (`WinPyton Interpreter.exe`)
+
+![directory where winpython is installed](images/directory.png)
+
