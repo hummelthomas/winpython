@@ -34,6 +34,12 @@ New packages:
 
 
 
+Downgraded packages: (on Win32)
+
+  * [numpy-MKL](http://numpy.scipy.org/) 1.9.1  → 1.8.2 (NumPy: multidimensional array processing for numbers, strings, records and objects (SciPy''s core module))
+
+
+
 Upgraded packages:
 
 
