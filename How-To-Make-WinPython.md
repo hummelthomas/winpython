@@ -14,13 +14,13 @@ This procedure may help You doing your own Winpython 'October 2014' distribution
 ### Procedure
 This Procedure is a rewrite or complement of the original method created by Pierre Raybaut ([here](https://sourceforge.net/p/winpython/wiki/How%20To%20Make%20WinPython/))
 
-It gives two optional big shortcuts over the original method :
+It provides two optional big shortcuts over the original method :
 - not downloading yourself a set of packages, one by one,
 - not downloading yourself the additional tools.
 
 
 *******************
-Step0 (optional):  Install a md5/sh1 checker
+**Step 0 (optional):**  Install a md5/sh1 checker
 *******************
 (duration ~ 10')
 
@@ -46,7 +46,7 @@ rem this is fciv_launcher.bat
 notepad.exe %1.hash.txt
 ````
 ******************
-Step1 (mandatory): Install the complementary external tools for building Winpython
+**Step 1 (mandatory):** Install the complementary external tools for building Winpython
 ******************
 (duration ~ 20')
 
@@ -93,11 +93,12 @@ MD5 | SHA-1 | File
 
 
 *******************
-Step2: install a winpython (or a standard python) on your PC
+**Step 2 (mandatory):** Install a version of winpython (or a standard python) on your PC
 *******************
 (duration ~ 15')
-- getting a (for example) winpython3.3.5.0 (or using one you have)
-- warning : take a 64 bit winpython if you plan to create a 64 build with it
+
+- downloading for example winpython3.3.5.0 (or using one you have)
+- warning : Use a 64 bit winpython if you plan to create a 64 build with it
 - download WinPython-64bit-3.3.5.0.exe from sourceforge.net
 - check its hash :
 
@@ -106,17 +107,14 @@ MD5 | SHA-1 | File
 fb6c256442079099e0fec5b37c49ca64 | 224e5f754c3e49c20458b4c560034d9c331ee190 | winpython-64bit-3.3.5.0.exe
 ccc8af61ae894a8fa052c49c8ecf2ad1 | df5280fb911ca7d1ad09bcb089a98693b14e566e | winpython-32bit-3.3.5.0.exe
 
- 
 
 - let suppose you placed it in 
      D:\WinPython-64bit-3.3.5.0 (or 'PC_WinPython_location')
 
-
 *******************
-Step3 (mandatory) :  
+**Step 3 (mandatory):**  
 *******************
 (duration ~ 10' if you get what is proposed here and build winpython3.4, 4 hours if your download yourself)
-
 
 Prepare the 'root' directory hierarchy to build your distribution 
 
@@ -142,13 +140,13 @@ at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_20
 
    ==> unzip them "here", so you create the directory at the right level :  basedir34\packages.win32\python-3.4.1.msi , ..
 
-   ==> slow path (or when you will bluid your own), download them yourself from :
+   ==> slow path (or when you will build your own), download them yourself from :
          https://pypi.python.org/pypi
          http://www.lfd.uci.edu/~gohlke/pythonlibs/
          or other places
 
 *******************
-Step5 (optional)  : feeding tools, tools.win32, tools.win-amd64 yourself
+**Step 5 (optional):** Feeding tools, tools.win32, tools.win-amd64 yourself
 *******************
 (duration = 0' if you take them from your usual winpython, ~ 1 hour if you download yourself)
 
@@ -182,7 +180,7 @@ MD5 | SHA-1 | File
 
 
 *******************
-Step4 (mandatory) : the building moment 
+**Step 4 (mandatory):** The building moment 
 ******************
 (duration ~ 30')
 
@@ -205,9 +203,9 @@ Step4 (mandatory) : the building moment
 
 
 *******************
-Step5 (flavors) : doing a special Winpython version with more packages
+**Step 5 (flavors):** Creating a custom/special Winpython version with additional packages
 ******************
-Let suppose you want to do a MTSW (Minning-the-social-web) edition in python 3.4
+Let suppose you want to create a MTSW (Minning-the-social-web) edition in python 3.4
    - create a sub-directory 
      - basedir34\Flavor_MTSW
    - add sub-directories to receive your complements :
