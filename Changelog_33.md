@@ -14,7 +14,8 @@ Upgraded packages:
 
 
 
-  * [MinGW32](http://pypi.python.org/pypi/MinGW32) 4.8.1 → 4.9.2 (C/C++ and Fortran compilers (http://www.mingw.org for 32-bit) (https://github.com/numpy/numpy/wiki/Mingw-static-toolchain for 64bit))
+  * [MinGW32](https://github.com/numpy/numpy/wiki/Mingw-static-toolchain) 4.8.1 → 4.9.2 (C/C++ and Fortran compilers (Mingw64 static toolchain Numpy version, with OpenBLAS) 
+
 
 
 
