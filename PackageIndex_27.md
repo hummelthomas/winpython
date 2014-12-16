@@ -8,7 +8,7 @@ Name | Version | Description
 -----|---------|------------
 [gettext](http://sourceforge.net/projects/gettext) | 0.14.4 | GNU gettext Win32 porting - the GNU translation tool (useful tools for pygettext, a standard library module)
 [SciTE](http://www.scintilla.org/SciTE.html) | 3.3.7 | SCIntilla based Text Editor - Multilanguage, powerful and light-weight text editor
-[MinGW32](http://pypi.python.org/pypi/MinGW32) | 4.9.2 | C/C++ and Fortran compilers (http://www.mingw.org for 32-bit) (https://github.com/numpy/numpy/wiki/Mingw-static-toolchain for 64bit)
+[MinGW32](https://github.com/numpy/numpy/wiki/Mingw-static-toolchain) | 4.9.2 | C/C++ and Fortran compilers (Mingw64 static toolchain Numpy version, with OpenBLAS) 
 
 ### Python packages
 
