@@ -20,7 +20,7 @@ It gives two optional big shortcuts over the original method :
 
 
 *******************
-Step0 (optionnal):  Install a md5/sh1 checker
+Step0 (optional):  Install a md5/sh1 checker
 *******************
 (duration ~ 10')
 
@@ -50,7 +50,7 @@ Step1 (mandatory): Install the complementary external tools for building Winpyth
 ******************
 (duration ~ 20')
 
-optionnal : 
+optional : 
    - check these with https://www.virustotal.com (and http://virusscan.jotti.org when in doubts)
    - in mandatory_external_tools directory
 
