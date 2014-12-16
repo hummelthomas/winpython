@@ -14,3 +14,6 @@ To install packages, you can download the source tarballs (mostly `.tar.gz` file
 # Installation / Registration as installed Python distribution
 
 See [[Installation]]
+
+Link to old version of page:
+http://sourceforge.net/p/winpython/wiki/ControlPanel/
