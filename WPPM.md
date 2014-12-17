@@ -6,8 +6,8 @@ That's why I wrote the WinPython Package Manager (WPPM), a Python program handli
 
 ## WPPM currently supports the following Python package formats:
 
-    Standard executable installers: [distutils wininst](http://docs.python.org/distutils/builtdist.html#creating-windows-installers) (installer filename has the form: foo-1.0.win32-py2.7.exe)
-    Standard source distributions[1]: [distutils sdist](http://docs.python.org/distutils/sourcedist.html) (archive filename has the form: foo-1.0.tar.gz) -- **but only for pure-Python packages**
+* Standard executable installers: [distutils wininst](http://docs.python.org/distutils/builtdist.html#creating-windows-installers) (installer filename has the form: foo-1.0.win32-py2.7.exe)
+* Standard source distributions[1]: [distutils sdist](http://docs.python.org/distutils/sourcedist.html) (archive filename has the form: foo-1.0.tar.gz) -- **but only for pure-Python packages**
 
 [1] This feature was implemented in WPPM v0.2dev included in WinPython v2.7.3.0beta3
 
