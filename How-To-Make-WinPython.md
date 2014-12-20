@@ -1,9 +1,12 @@
-## How to make Winpython of October 2014 (Rewrite in progress)
+## How to make Winpython of December 2014 
 
-This procedure may help You doing your own Winpython 'October 2014' distribution in about 2 hours.
+This procedure may help You doing your own Winpython 'December 2014' distribution in about 2 hours.
 (multiply by 4, if you're taking the slow path)
 
 ### Changelog 
+(v05, 2014-12-20):
+- include the two Flavors made with winpython 2014-12 in the Directory https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_2014-12
+
 (v04b, 2014-10-18b):
 - winpython builder is to be used with a python 3.3+
 - adding nsis-2.46-strlen_8192.zip patch  (to preserve existing %PATH% bigger than 1024 character)
