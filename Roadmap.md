@@ -1,7 +1,7 @@
 ## Current roadmap
  
 ### Releases 
-- every 4 to 8 weeks ([next](https://github.com/winpython/winpython/issues/31) = february 2015)
+- every 4 to 8 weeks ([next](https://github.com/winpython/winpython/issues/31) = january 2015)
 - direction followed : 
   - **Education**: IDE, SQL tools, notebook tutorials, graphics and interactivity, Operations Research
   - **Data Science**: Pandas, StatsModels, SQL, Machine Learning, Web Scraping, SpreadSheets
