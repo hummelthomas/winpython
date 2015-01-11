@@ -13,7 +13,7 @@ Issues are of two kinds:
   => Chrome, Firefox, or Internet Explorer 10 (or more) are suggested.
 
 - Anti-virus or Firewall settings:
-  some Free Antivirus/Firewalls are too restrictive. If you have “ZoneAlarm  Extreme Security”, this post might be helpfull https://groups.google.com/forum/#!topic/winpython/sOanTThQ-os
+  some Antivirus/Firewalls are too restrictive. If you have “ZoneAlarm  Extreme Security”, this post might be helpfull https://groups.google.com/forum/#!topic/winpython/sOanTThQ-os
 
 #### no 'IDLE' icon !
 If you don't have the IDLE icon, you are probably using an old WinPython version. 
