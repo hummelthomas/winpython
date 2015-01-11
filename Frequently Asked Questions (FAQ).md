@@ -1,4 +1,4 @@
-#### Ipython Notebook issues
+#### Ipython Notebook doesn't work well
 
 For example:
 ````
@@ -15,7 +15,7 @@ Issues are of two kinds:
 - Anti-virus or Firewall settings:
   some Free Antivirus/Firewalls are too restrictive. If you have “ZoneAlarm  Extreme Security”, this post my be helpfull https://groups.google.com/forum/#!topic/winpython/sOanTThQ-os
 
-#### IDLE icon issues
+#### no 'IDLE' icon !
 If you don't have the IDLE icon, you are probably using an old WinPython version. 
 - Solution1: download the missing icon corresponding to your winpython version from here, and place it next to the `Spyder.exe` icon.
 http://sourceforge.net/projects/stonebig.u/files/Icons_for_Winpython
