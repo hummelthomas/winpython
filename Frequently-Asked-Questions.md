@@ -25,7 +25,7 @@ http://sourceforge.net/projects/stonebig.u/files/Icons_for_Winpython
   python lib\idlelib\idle.py
 ````
 
--Solution3: click on icon `Spyder.exe`, then type on the bottom right Python console
+- Solution3: click on icon `Spyder.exe`, then type on the bottom right Python console
 ````
 import os;runfile(os.environ["WINPYDIR"]+r"\lib\idlelib\idle.py")
 ````
