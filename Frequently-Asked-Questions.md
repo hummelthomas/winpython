@@ -1,7 +1,7 @@
 Installation Issues
 ###################
 
-## Ipython Notebook issues
+#### Ipython Notebook issues
 
 For example:
 ````
