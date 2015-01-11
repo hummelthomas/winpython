@@ -1,5 +1,4 @@
-Installation Issues
-###################
+### Installation Issues
 
 #### Ipython Notebook issues
 
