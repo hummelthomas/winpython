@@ -17,7 +17,7 @@ Issues are of two kinds:
 
 #### IDLE icon issues
 If you don't have the IDLE icon, you are probably using an old WinPython version. 
-- Solution1: get the missing icon from download it next to other icons, and you should get the nice IDLE icon.
+- Solution1: download the missing icon corresponding to your winpython version from here, and place it next to the `Spyder.exe` icon.
 http://sourceforge.net/projects/stonebig.u/files/Icons_for_Winpython
 
 - Solution2:  click on icon `WinPython Command Prompt.exe` then type
