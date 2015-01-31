@@ -4,6 +4,9 @@ This procedure may help You doing your own Winpython 'December 2014' distributio
 (multiply by 4, if you're taking the slow path)
 
 ### Changelog 
+(v06, 2015-01-30):
+- replace old mingw32 reference per mingw64-static
+
 (v05, 2014-12-20):
 - include the two Flavors made with winpython 2014-12 in the Directory https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_2014-12
 
@@ -153,34 +156,19 @@ at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_20
 *******************
 (duration = 0' if you take them from your usual winpython, ~ 1 hour if you download yourself)
 
-- in basedir34\tools, put tools ok for 32 bit and 64 bit installations :
-  copy the "TortoiseHg" from your given Winpython
-   (or take the one provided)
-
-- in basedir34\tools.win32, put tools ok for 32 bit installations :
-  if you want MinGW32 in our portable distribution :
-     - go to https://sourceforge.net/projects/mingw/
-     - download mingw-get-setup.exe
-
-
-MD5 | SHA-1 | File
-----|-------|-----
-92d905bdfe13c798a2cda2bbacdad932 | 66f1355f16ac1e328243e877880eb6e45e8b30e2 | mingw-get-setup.exe
-     - open it,
-     - install mingw-developer-tool,
-     - mingw32-base
-     - mingw32-gcc-fortran,
-     - mingw32-gcc-g++,
-     - copy the result C:\MinGW\mingw32 in d:\winpython\basedir34\tools.win32\mingw32 
-
-- in basedir34\tools.win-amd64 :
-     - go to https://github.com/numpy/numpy/wiki/Mingw-static-toolchain
-     - download mingw64static-2014-07.7z and unzip it there
+- for 32 bit:
+   - download mingw32static-2014-11.7z and unzip it
+   - copy mingw32static-2014-11\mingw32static to %WINPYTHONBASEDIR%\tools.win32\mingw32
+   - so you should have a %WINPYTHONBASEDIR%\tools.win32\mingw32\bin
+- for 64 bit:
+   - download mingw64static-2014-11.7z and unzip it
+   - copy mingw64static-2014-11\mingw32static to %WINPYTHONBASEDIR%\tools.win-amd64\mingw32
+   - so you should have a %WINPYTHONBASEDIR%\tools.win-amd64\mingw32\bin
 
 MD5 | SHA-1 | File
 ----|-------|-----
-3879839c7f1e89962fb8ee1da66e5f67 | a15b1b74381423d436b6f95bf25b00601756ddfd | mingw64static-2014-07ter.7z
-
+94e5a92fe6b480338624662590732898 | f6ebc602d4c0788cd2a4b69c101ed7a30474ba53 | mingw64static-2014-11.7z
+4b42a210334f34092bfd65bacd5052a1 | c525ced4793965961c6d69f1eed61c3faa24d760 | mingw32static-2014-11.7z
 
 *******************
 **Step 4 (mandatory):** The building moment 
