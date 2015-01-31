@@ -158,12 +158,12 @@ at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_20
 
 - for 32 bit:
    - download mingw32static-2014-11.7z and unzip it
-   - copy mingw32static-2014-11\mingw32static to %WINPYTHONBASEDIR%\tools.win32\mingw32
-   - so you should have a %WINPYTHONBASEDIR%\tools.win32\mingw32\bin
+   - copy mingw32static-2014-11\mingw32static to basedir34\tools.win32\mingw32
+   - so you should have a basedir34\tools.win32\mingw32\bin
 - for 64 bit:
    - download mingw64static-2014-11.7z and unzip it
-   - copy mingw64static-2014-11\mingw32static to %WINPYTHONBASEDIR%\tools.win-amd64\mingw32
-   - so you should have a %WINPYTHONBASEDIR%\tools.win-amd64\mingw32\bin
+   - copy mingw64static-2014-11\mingw32static to basedir34\tools.win-amd64\mingw32
+   - so you should have a basedir34\tools.win-amd64\mingw32\bin
 
 MD5 | SHA-1 | File
 ----|-------|-----
