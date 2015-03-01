@@ -4,6 +4,9 @@ This procedure may help You doing your own Winpython 'December 2014' distributio
 (multiply by 4, if you're taking the slow path)
 
 ### Changelog 
+(v07, 2015-03-01):
+- due to issue with FlavorJulia on 64bit, it is suggested to remove \tools*\mingw32\bin\libopenblas.dll, unless you really use libopenblas under Python. (see end of thread https://groups.google.com/forum/#!topic/winpython/VkuOpynUT2U ) 
+   
 (v06, 2015-01-30):
 - replace old mingw32 reference per mingw64-static
 
