@@ -1,13 +1,17 @@
-To install python packages that are not included in Winpython, you can install easily.
+To install python packages that are not included in Winpython.
 
-# Precompiled Packages
+# Installing a Precompiled Wheel Package (not using the Pypi version)
 
-For packages that need to be compiled, download the binary from [Gohlke's Unoffical Windows Binaries for Python Extension Packages](http://www.lfd.uci.edu/~gohlke/pythonlibs/), who maintains a huge list of precompiled packages. Otherwise you have to compile them yourself (see the package for details).
+Download the binary Wheel (.whl format):
+- from [Gohlke's Unoffical Windows Binaries for Python Extension Packages](http://www.lfd.uci.edu/~gohlke/pythonlibs/), the default provider of Winpython packages,
+- or from other places you trust like github. 
+
 Then, select the downloaded package via *Winpython Package Manager* (WPPM) (in your Winpython directory) and install it.
 
-Instead of using the WPPM you can execute the binary directly, if you've registered your installation in your system.
+It is also possible to open any downloaded packages (usually `.tar.gz` or `.zip`) files containing the Python-files) in the WPPM to install them.
 
-# Other packages
+
+# Installing via `pip`
 
 Using the *Winpython Command Prompt* you are able to use [*pip*](https://pip.readthedocs.org/en/latest/) directly to install packages from [PyPI](http://pypi.python.org/) for example:
 
@@ -17,4 +21,4 @@ pip install flake8
 
 ![pip Screenshot](images/pip-install.png)
 
-It is also possible to open any downloaded packages (usually `.tar.gz` files containing the Python-files) in the WPPM to install them.
+Since Winpython of March 2015, packages installed via `pip` are also visible in the (WPPM).
