@@ -21,4 +21,4 @@ pip install flake8
 
 ![pip Screenshot](images/pip-install.png)
 
-Since Winpython of March 2015, packages installed via `pip` are also visible in the (WPPM).
+Since Winpython of March 2015, packages installed via `pip` will also visible in the (WPPM).
