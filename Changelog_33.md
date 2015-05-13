@@ -1,8 +1,8 @@
-## History of changes for WinPython 3.4.3.3
+## History of changes for WinPython 3.3.5.8
 
 
 
-The following changes were made to WinPython distribution since version 3.4.3.2.
+The following changes were made to WinPython distribution since version 3.3.5.7.
 
 
 
@@ -111,6 +111,8 @@ Upgraded packages:
 
 
 * * *
+
+
 
 
 ## History of changes for WinPython 3.3.5.7
