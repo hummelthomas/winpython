@@ -11,12 +11,13 @@
 - **simplicity**:
    - examples and tutorials in "Notebook" format,
    - complete out-of-the-box,
+   - promote and use the 'standard' python packaging tools.
 - **flexibility**:
    - easy to tweak in a "portable" way (zip and distribute your "mod" Winpython),
-   - Flavor of the month (Winpython + added packages in a domain),
+   - Flavor of the month (Winpython + added functionality packages in a domain),
    - buildable in the Cloud
 - **fun**:
-   - make "I built my first Winpython !" a simple experience for advanced users,
-   - contributing to Winpython is made easy on github and google mailing list.
+   - make "I built my own Winpython !" a simpler experience for advanced users,
+   - make contributing to Winpython easier:code & tutorials via github, google group and stackoverflow for answers, ...
 
 Historical Roadmap is [here](https://sourceforge.net/p/winpython/wiki/Roadmap/)
