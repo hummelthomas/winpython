@@ -18,4 +18,4 @@ Wiki page | Description
 [Installation](Installation) | Installation, requirements, registration
 [Environment Variables](Environment) | How to setup variable environments in WinPython
 [Installing Additional Packages](Installing-Additional-Packages) | How to install python packages that are not included in Winpython
-[Next Release Follow-up](https://github.com/winpython/winpython/issues/91) | Status of Next Release
+[Next Release Follow-up](https://github.com/winpython/winpython/issues/109) | Status of Next Release
