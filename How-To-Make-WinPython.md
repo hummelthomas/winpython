@@ -159,20 +159,10 @@ at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_20
 *******************
 (duration = 0' if you take them from your usual winpython, ~ 1 hour if you download yourself)
 
-- for 32 bit:
-   - download mingw32static-2014-11.7z and unzip it
-   - copy mingw32static-2014-11\mingw32static to basedir34\tools.win32\mingw32
-   - so you should have a basedir34\tools.win32\mingw32\bin
-- for 64 bit:
-   - download mingw64static-2014-11.7z and unzip it
-   - copy mingw64static-2014-11\mingw32static to basedir34\tools.win-amd64\mingw32
-   - so you should have a basedir34\tools.win-amd64\mingw32\bin
-
-MD5 | SHA-1 | File
-----|-------|-----
-94e5a92fe6b480338624662590732898 | f6ebc602d4c0788cd2a4b69c101ed7a30474ba53 | mingw64static-2014-11.7z
-4b42a210334f34092bfd65bacd5052a1 | c525ced4793965961c6d69f1eed61c3faa24d760 | mingw32static-2014-11.7z
-
+Since Winpython of 2015-08-08, we use mingwpy wheel for the compilation toolchain.
+==> Download mingwpy0.1.0b3 (or better) wheels from https://binstar.org/carlkl/mingwpy/files
+==> Manage it like any other wheel.
+ 
 *******************
 **Step 4 (mandatory):** The building moment 
 ******************
