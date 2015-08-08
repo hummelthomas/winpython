@@ -1,9 +1,11 @@
-## How to make Winpython of December 2014 
+## How to make Winpython-201506 of August 2015 
 
-This procedure may help You doing your own Winpython 'December 2014' distribution in about 2 hours.
+This procedure may help You doing your own Winpython-201506 of August 2015 distribution in about 2 hours.
 (multiply by 4, if you're taking the slow path)
 
 ### Changelog 
+(v08, 2015-08-08):
+- we now use mingwpy as the Compiler (same provider: Carl Kleffner, much simpler integration: a wheel)
 (v07, 2015-03-01):
 - due to issue with FlavorJulia on 64bit, it is suggested to remove \tools*\mingw32\bin\libopenblas.dll, unless you really use libopenblas under Python. (see end of thread https://groups.google.com/forum/#!topic/winpython/VkuOpynUT2U ) 
    
