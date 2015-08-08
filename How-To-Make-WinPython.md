@@ -5,7 +5,7 @@ This procedure may help You doing your own Winpython-201506 of August 2015 distr
 
 ### Changelog 
 (v08, 2015-08-08):
-- we now use mingwpy as the Compiler (same provider: Carl Kleffner, much simpler integration: a wheel)
+- we now use mingwpy as the Compiler (same author as mingw64-static: Carl Kleffner, much simpler integration: a wheel)
 (v07, 2015-03-01):
 - due to issue with FlavorJulia on 64bit, it is suggested to remove \tools*\mingw32\bin\libopenblas.dll, unless you really use libopenblas under Python. (see end of thread https://groups.google.com/forum/#!topic/winpython/VkuOpynUT2U ) 
    
