@@ -9,7 +9,7 @@ In September 2015, **64bit are the suggested variants of Winpython for most situ
 
 Package Index: 
 - [WinPython 3.4](PackageIndex_34)
-- [WinPython 2.7](PackageIndex_27)
+- [WinPython 2.7 (no more maintained after November 2015)](PackageIndex_27)
 - [WinPython 3.3 (no more maintained since June 2015)](PackageIndex_33)
 
 
