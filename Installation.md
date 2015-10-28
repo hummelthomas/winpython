@@ -22,11 +22,11 @@ Registering your WinPython installation will:
 
 # Operating Systems
 
-## Windows Vista, 7 and 8
+## Windows Vista, 7, 8 and 10
 
-Winpython works fine in Windows **Vista**, **7** and **8** just by extracting it to your favorite place.
+WinPython works fine in Windows **Vista**, **7**, **8** and **10** just by extracting it to your favorite place.
 
-Older systems like Windows Server 2003 and Windows XP are not no longer supported. You may are able to run your programs, but Ipython (and thus Spyder) is defintely broken, unless you apply the workaround described in the next section. As we don't test our releases on these platforms we cannot guarantee incompatibilites and unexpected behavior.
+Older systems like Windows Server 2003 and Windows XP are not no longer supported. You may are able to run your programs, but IPython (and thus Spyder) is defintely broken, unless you apply the workaround described in the next section. As we don't test our releases on these platforms we cannot guarantee incompatibilites and unexpected behavior.
 
 ## Windows XP
 
