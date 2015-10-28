@@ -9,8 +9,7 @@ Winpython comes with quite a few included programs, here is a list with some exp
   * [Qt Linguist](https://qt-project.org/doc/qt-4.8/linguist-manual.html) (`Qt Linguist.exe`) - Translating Qt programs
   * [Spyder light] (`Spyder (light).exe`) - Spyder will be started without loading Addons automatically
   * [Spyder](https://pythonhosted.org/spyder/) (`Spyder.exe`) - Most popular Python-IDE in the scientific context.
-  * [Tortoise HG](http://tortoisehg.bitbucket.org/) (`TortoiseHG.exe`) - GUI for Mercurial Version Control System. Will be removed in next (December) release!
-  * WinPython Command Promt (`WinPyton Command Prompt.exe`) - A command shell with loaded Winpython programs (all installed programs too, e.g. pip, nose, etc.)
+  * WinPython Command Prompt (`WinPyton Command Prompt.exe`) - A command shell with loaded Winpython programs (all installed programs too, e.g. pip, nose, etc.)
   * [[WinPython Control Panel]] (`WinPyton Control Panel.exe`)
   * WinPython Interpreter (`WinPyton Interpreter.exe`)
 
