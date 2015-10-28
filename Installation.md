@@ -2,8 +2,8 @@
 
 As some packages were built using Microsoft Visual Studio, you may have to install one of the following redistribution packages for WinPython 2.7 only:
 
-    WinPython 2.7 32bit: [Microsoft Visual C++ 2008 Redistributable Package (x86)](http://www.microsoft.com/en-us/download/details.aspx?id=29)
-    WinPython 2.7 64bit: [Microsoft Visual C++ 2008 Redistributable Package (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=15336)
+- WinPython 2.7 32bit: [Microsoft Visual C++ 2008 Redistributable Package (x86)](http://www.microsoft.com/en-us/download/details.aspx?id=29)
+- WinPython 2.7 64bit: [Microsoft Visual C++ 2008 Redistributable Package (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=15336)
 
 # Installation
 
