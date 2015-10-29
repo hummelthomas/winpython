@@ -1,6 +1,6 @@
 ## WinPython 2 or WinPython 3
 
-**Two major versions** of the Python programming language do exist: [Python 2 and Python 3](http://wiki.python.org/moin/Python2orPython3).
+**Two major versions** of the Python programming language exist: [Python 2 and Python 3](http://wiki.python.org/moin/Python2orPython3).
 
 WinPython 3.4 (based on Python 3.4) is the suggested version for most situations.
 
