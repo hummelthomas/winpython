@@ -1,7 +1,7 @@
 ## Current roadmap
  
 ### Releases 
-- every 4 to 8 weeks
+- every 4 to 12 weeks
 - direction followed : 
   - **Education**: IDE, SQL tools, notebook tutorials, graphics and interactivity, Operations Research
   - **Data Science**: Pandas, StatsModels, SQL, Machine Learning, Deep Learning, Web Scraping, SpreadSheets
