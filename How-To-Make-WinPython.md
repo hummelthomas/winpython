@@ -15,7 +15,7 @@ This procedure may help You doing your own Winpython-201506 of August 2015 distr
 - replace old mingw32 reference per mingw64-static
 
 (v05, 2014-12-20):
-- include the two Flavors made with winpython 2014-12 in the Directory https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_2014-12
+- include the two Flavors made with winpython 2014-12 in the Directory https://sourceforge.net/projects/winpython/files/WinPython_Source/Do_It_Yourself/WinPython_2014-12/
 
 (v04b, 2014-10-18b):
 - winpython builder is to be used with a python 3.3+
@@ -73,7 +73,7 @@ mandatory :
    - 7zip (to install or to re-take from official site)
    - nsis (2.46) + 1 external module  + the "8192 characters in PATH" patch
 
- ==> they are provided at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/mandatory_to_install_tools
+ ==> they are provided at https://sourceforge.net/projects/winpython/files/WinPython_Source/Do_It_Yourself/mandatory_to_install_tools/
 
  ==> or you can download them from their origin, as described below.
 
@@ -153,7 +153,7 @@ Prepare the 'root' directory hierarchy to build your distribution
      - tools.win-amd64 (if you want to build for python 3.4 - 64bit)
 
    ==> the typical contain of these directories is provided as .zip, as it was for winpython (after) ".1"
-at https://sourceforge.net/projects/stonebig.u/files/Do_It_Yourself/Winpython_2015-06/
+at https://sourceforge.net/projects/winpython/files/WinPython_Source/Do_It_Yourself/Winpython_2015-06/
 
    ==> unzip them "here", so you create the directory at the right level :  basedir34\packages.win32\python-3.4.1.msi , ..
 
