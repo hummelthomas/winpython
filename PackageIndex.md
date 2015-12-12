@@ -5,6 +5,7 @@
 WinPython 3.4 (based on Python 3.4) is the suggested version for most situations.
 
 Package Index: 
+- [WinPython 3.5](PackageIndex_35)
 - [WinPython 3.4](PackageIndex_34)
 - [WinPython 2.7 (maintained until October 2015)](PackageIndex_27)
 - [WinPython 3.3 (no more maintained since June 2015)](PackageIndex_33)
