@@ -6,7 +6,7 @@ The following packages are included in WinPython v3.5.1.1 .
 
 Name | Version | Description
 -----|---------|------------
-[SciTE](http://www.scintilla.org/SciTE.html) | 3.3.7 | SCIntilla based Text Editor - Multilanguage, powerful and light-weight text editor
+
 
 ### Python packages
 
@@ -193,7 +193,7 @@ The following packages are included in WinPython v3.5.1.1Slim .
 
 Name | Version | Description
 -----|---------|------------
-[SciTE](http://www.scintilla.org/SciTE.html) | 3.3.7 | SCIntilla based Text Editor - Multilanguage, powerful and light-weight text editor
+
 
 ### Python packages
 
@@ -291,7 +291,7 @@ The following packages are included in WinPython v3.5.1.1Zero .
 
 Name | Version | Description
 -----|---------|------------
-[SciTE](http://www.scintilla.org/SciTE.html) | 3.3.7 | SCIntilla based Text Editor - Multilanguage, powerful and light-weight text editor
+
 
 ### Python packages
 
