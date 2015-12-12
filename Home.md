@@ -5,6 +5,7 @@ Wiki page | Description
 ----------|------------
 [Package Index](PackageIndex) | WinPython 2 or WinPython 3?
 [WinPython 3.5 Packages](PackageIndex_35) | Complete list of packages included in WinPython 3.5
+[WinPython 3.5 Changes](ChangeLog_35) | History of changes for WinPython 3.5
 [WinPython 3.4 Packages](PackageIndex_34) | Complete list of packages included in WinPython 3.4
 [WinPython 3.4 Changes](ChangeLog_34) | History of changes for WinPython 3.4
 [WinPython 3.3 Packages](PackageIndex_33) | Complete list of packages included in WinPython 3.3 (ended June 2015)
