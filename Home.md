@@ -1,17 +1,15 @@
 Welcome to the winpython wiki!
 ### What's in WinPython?
 
-Wiki page | Description
+WinPython [Package and Changelogs](https://github.com/winpython/winpython/tree/master/changelogs) describes the List of packages and changelogs per Release
+
+WinPython Branch | Description
 ----------|------------
-[Package Index](PackageIndex) | WinPython 2 or WinPython 3?
-[WinPython 3.5 Packages](PackageIndex_35) | Complete list of packages included in WinPython 3.5
-[WinPython 3.5 Changes](ChangeLog_35) | History of changes for WinPython 3.5
-[WinPython 3.4 Packages](PackageIndex_34) | Complete list of packages included in WinPython 3.4
-[WinPython 3.4 Changes](ChangeLog_34) | History of changes for WinPython 3.4
-[WinPython 3.3 Packages](PackageIndex_33) | Complete list of packages included in WinPython 3.3 (ended June 2015)
-[WinPython 3.3 Changes](ChangeLog_33) | History of changes for WinPython 3.3 (ended June 2015)
-[WinPython 2.7 Packages](PackageIndex_27) | Complete list of packages included in WinPython 2.7 (ended October 2015)
-[WinPython 2.7 Changes](ChangeLog_27) | History of changes for WinPython 2.7 (ended October 2015)
+WinPython 3.5 Status | Maturing: No included Cython Compiler, Qt4 only
+WinPython 3.4Qt5 Status | Mainline
+WinPython 3.4 Status | Mature (Qt4)
+WinPython 3.3 Status | Legacy (support ended June 2015)
+WinPython 2.7 Status | Legacy (support ended October 2015)
 
 ### Other topics
 
