@@ -14,7 +14,7 @@
    - promote and use the 'standard' python packaging tools.
 - **flexibility**:
    - easy to tweak in a "portable" way (zip and distribute your "mod" Winpython),
-   - Flavor of the month (Winpython + added functionality packages in a domain),
+   - several official versions, to match different user needs, 
    - buildable in the Cloud
 - **fun**:
    - make "I built my own Winpython !" a simpler experience for advanced users,
