@@ -4,6 +4,7 @@ As some packages were built using Microsoft Visual Studio, you may have to insta
 
 - WinPython 2.7 32bit: [Microsoft Visual C++ 2008 Redistributable Package (x86)](http://www.microsoft.com/en-us/download/details.aspx?id=29)
 - WinPython 2.7 64bit: [Microsoft Visual C++ 2008 Redistributable Package (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=15336)
+- WinPython 3.5 (on non-Windows 10 platforms): [Microsoft Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=49984)
 
 # Installation
 
