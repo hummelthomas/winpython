@@ -1,9 +1,36 @@
-## How to make Winpython-201506 of August 2015 
+# How to make Winpython-2016-02 of April 2016
 
-This procedure may help You doing your own Winpython-201506 of August 2015 distribution in about 2 hours.
+This procedure may help You doing your own Winpython-201508 of December 2015 distribution in about 2 hours.
 (multiply by 4, if you're taking the slow path)
 
 ### Changelog 
+(v12, 2016-04-20 WinPython 2016-02):
+- no more NSIS external module (NSIS usage reduced by half) nor patch
+- the NSIS scripts are replaced by open .BAT and .VBS scripts
+
+
+(v11, 2016-02-09 WinPython 2016-01):
+- no choice but to include back pyreadline.exe (until Jupyter5, apparently)
+- no changed in procedure, but note 'pip' integration improvement:
+   . ".\script\upgrade_pip.bat" propose the exact procedure to upgrade pip and keep WinPython feature,
+   . a WinPython-friendly fix will get into standard 'pip' https://github.com/pypa/pip/pull/3448
+    
+
+(v10, 2015-11-03):
+- nearly all packages are in packages.srcreq
+- no more packages in packages.src
+- the build pick the packages in packages.srcreq according to provided requirements files.
+- specific preparation for Python 3.5 (reading http://stevedower.id.au/blog/the-python-3-5-installer/#comment-241)
+  . download from python.org the standard binary installer "python-3.5.1-amd64.exe" in d:\toto
+  . D:\toto\python-3.5.1-amd64.exe TargetDir=D:\toto\winpython-3.5.1-amd64\python-3.5.1.amd64 /quiet  InstallAllUsers=0 Include_launcher=0 InstallLauncherAllUsers=0 Include_test=0  AssociateFiles=0 Shortcuts=0
+  . zip result 'python-3.5.1.amd64' in basedir35\packages.win-amd64\python-3.5.1.amd64.zip
+  . ATTENTION: UNINSTALL Python3.5.1 from your Windows system after !!!!!!!!!!!!
+
+
+(v09, 2015-11-03):
+- now, nearly all packages are in packages.srcreq
+- the build pick these packages according to provide requirements files.
+
 (v08, 2015-08-08):
 - we now use gcc Compiler provided by mingwpy wheel (same author as mingw64-static: Carl Kleffner, much simpler integration: a wheel)
 - we now use a dos batch script instead of runnin make.py interactively
@@ -86,24 +113,12 @@ mandatory :
      nsis-2.46-setup.exe is the one I use
      (from http://freefr.dl.sourceforge.net/project/nsis/NSIS%202/2.46/nsis-2.46-setup.exe)
 
-   - download (or use the one provided) and install textReplace plugin for nsis :
-     (from http://nsis.sourceforge.net/mediawiki/images/e/eb/Textreplace.zip)
  
-2014-10-18 complement
-   - download (or use the one provided) and unzip "strlen8192" patch for nsis :
-     (http://freefr.dl.sourceforge.net/project/nsis/NSIS%202/2.46/nsis-2.46-strlen_8192.zip
-     then, manually replace one by one each patched 7 files in the default nsis 
-
-         C:\Program Files (x86)\NSIS\makensis.exe
-
-         C:\Program Files (x86)\NSIS\Stubs\bzip2 bzip2_solid lzma_solid lzma zlib_solid zlib 
 
 MD5                              | SHA-1                                    | File
 ---------------------------------|------------------------------------------|------------------------------
 5e02441c7f3fa4da4f4928a2d42a07c3 | 1a0f9ec81b39da809cdc9495166a2a1c9a79719c | nsis-2.46-setup.exe
-2347d68b9579525f6fbcbdb4d93c596f | 8ecc9deb4f233c6622f90ed30afacd890ec56ad0 | textreplace.zip
 441274c321383936860e845bd1eb4340 | 03c86e42464c6da82e0340acf807c88e3d1e40e0 | 7z922.exe
-604c0c2c7902c5b6a1f89ab0b1f7a87c | 1534fe63749009472c82f6bf960a7da7201dda06 | nsis-2.46-strlen_8192.zip
 
 
 *******************
@@ -111,7 +126,7 @@ MD5                              | SHA-1                                    | Fi
 *******************
 (duration ~ 15')
 
-- downloading for example winpython3.4.3.4 (or using one you have)
+- downloading for example winpython-3.4.3.4 (or using one you have)
 - warning : Use a 64 bit winpython if you plan to create a 64 build with it
 - download WinPython-64bit-3.4.3.4.exe from sourceforge.net (or github release tag)
 - check its hash :
@@ -142,6 +157,7 @@ Prepare the 'root' directory hierarchy to build your distribution
      - winpython\basedir27 (if you want to build for python 2.7)
      - winpython\basedir34 (if you want to build for python 3.4)
      - winpythonQt5\basedir34 (if you want to build a variant for python 3.4 with Qt5)
+     - winpython\packages.srcreq (all optional packages, picked up by requirement files)
 
    - each basedir** subdirectory must contain the following subdirectories, for example
      - basedir34\packages.src
@@ -155,7 +171,7 @@ Prepare the 'root' directory hierarchy to build your distribution
    ==> the typical contain of these directories is provided as .zip, as it was for winpython (after) ".1"
 at https://sourceforge.net/projects/winpython/files/WinPython_Source/Do_It_Yourself/Winpython_2015-06/
 
-   ==> unzip them "here", so you create the directory at the right level :  basedir34\packages.win32\python-3.4.1.msi , ..
+   ==> unzip them "here", so you create the directory at the right level :  basedir34\packages.win32\python-3.4.4.msi , ..
 
    ==> slow path (or when you will build your own), download them yourself from :
          https://pypi.python.org/pypi
@@ -200,18 +216,27 @@ set my_buildenv=D:\WinPython-64bit-3.4.3.3_b0
 set my_root_dir_for_builds=D:\Winpython
 set my_python_target=34
 set my_pyver=3.4
-set my_release=5
+set my_release=2
+set my_flavor=
 
+set my_release_level=
 set my_arch=64
 set my_preclear_build_directory=Yes
+
+set tmp_reqdir=%my_root_dir_for_builds%\basedir%my_python_target%
+set my_requirements=%tmp_reqdir%\requirements.txt %tmp_reqdir%\requirements2.txt %tmp_reqdir%\requirements3.txt
+
+set my_find_links=%tmp_reqdir%\packages.srcreq
+
+set my_install_options=--no-index --pre --trusted-host=None
  
 call %~dp0\generate_a_winpython_distro.bat
 ````
 
    - save it, double_click on it and wait about 40',
      - result :
-       - a directory basedir34\build\WinPython-64bit-3.4.3.5 is created with your new Winpython in it (after 20')
-       - a Winpython_installer will be create from it as basedir34\WinPython-64bit-3.4.3.5.exe (after 20' more)
+       - a directory basedir34\build\WinPython-64bit-3.4.4.2 is created with your new Winpython in it (after 20')
+       - a Winpython_installer will be create from it as basedir34\WinPython-64bit-3.4.4.2.exe (after 20' more)
      - when it works, start removing, upgrading, adding some packages, and do your own custom Winpython.
 
 
