@@ -1,7 +1,7 @@
 ## Current roadmap
  
 ### Releases 
-- every 6 to 12 weeks (see  [Milestones](https://github.com/winpython/winpython/milestones))
+- every 6 to 13 weeks (see  [Milestones](https://github.com/winpython/winpython/milestones))
 - direction followed : 
   - **Education**: IDE, SQL tools, notebook tutorials, graphics and interactivity, Operations Research
   - **Data Science**: Pandas, StatsModels, SQL, Machine Learning, Deep Learning, Web Scraping, SpreadSheets
