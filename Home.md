@@ -5,7 +5,8 @@ WinPython [Package and Changelogs](https://github.com/winpython/winpython/tree/m
 
 WinPython Branch | Description
 ----------|------------
-WinPython 3.5 Status | Maturing: No included Cython Compiler, Qt4 only
+WinPython 3.5Qt5 Status | Maturing: No included Cython Compiler
+WinPython 3.5 Status | Legacy (Qt4): No included Cython Compiler (support may end Q4 2016)
 WinPython 3.4Qt5 Status | Mainline
 WinPython 3.4 Status | Mature (Qt4) (support may end H1 2016)
 WinPython 3.3 Status | Legacy (support ended June 2015)
