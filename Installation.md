@@ -20,12 +20,21 @@ The WinPython Control Panel allows to *register* your WinPython distribution to 
 
 ![Winpython Control Panel>Advanced>Register distribution](https://winpython.github.io/images/wpcp_register_2741.png)
 
-Registering your WinPython installation will:
+## Unregistration
+> Registering your WinPython installation will:
 
-- associate file extensions `.py`, `.pyc` and .pyo to Python interpreter
-- register Python icons in Windows explorer
-- add context menu entries Edit with IDLE and Edit with Spyder for `.py` files
-- register WinPython as a standard Python distribution in the registry (the same way as the standard Python Windows installers will do)
+> - associate file extensions `.py`, `.pyc` and .pyo to Python interpreter
+> - register Python icons in Windows explorer
+> - add context menu entries Edit with IDLE and Edit with Spyder for `.py` files
+> - register WinPython as a standard Python distribution in the registry (the same way as the standard Python Windows installers will do)
+
+> ---------------------------
+> Register distribution
+> ---------------------------
+> This will associate file extensions, icons and Windows explorer's context menu entries ('Edit with IDLE', ...) with selected Python distribution in Windows registry. <br>Shortcuts for all WinPython launchers will be installed in <i>WinPython</i> Start menu group (replacing existing shortcuts).<br>If <i>pywin32</i> is installed (it should be on any WinPython distribution), the Python ActiveX Scripting client will also be registered.<br><br><u>Warning</u>: the only way to undo this change is to register another Python distribution to Windows registry.<br><br><u>Note</u>: these actions are exactly the same as those performed when installing Python with the official installer for Windows.<br><br>Do you want to continue?
+> ---------------------------
+> &Yes   &No   
+> ---------------------------
 
 
 # Operating Systems
