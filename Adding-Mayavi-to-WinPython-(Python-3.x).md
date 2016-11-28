@@ -6,9 +6,11 @@ OS: Windows 8.1 64-bit
 Distribution: WinPython 3.5.2.3 64-bit (QT4)
 
 **Procedure**
+
 Downloaded the appropriate wheels from Christophe Gohlke's site (first installing VTK, traits, traitsui and a few other ETS packages, just to be sure, then finally mayavi 4.5.0 itself). I dragged and dropped the wheels into the WinPython Control Panel. Downloaded and ran a test program from the Mayavi website to make interactive dialogs. The program worked perfectly.
 
 **Notes**
+
 There was a small error message to the console: "libpng warning: iCCP: known incorrect sRGB profile", but the interactive program seemed to work OK.
 
 
