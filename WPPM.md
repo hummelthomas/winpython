@@ -1,15 +1,17 @@
 ## Key features
 
-WinPython is a portable distribution of Python. In other words, even if it provides a working Python environment, WinPython does **not** install Python on your machine. As a consequence, it's not possible to install packages using standard Python installers (these installers will look for Python in Windows registry and won't find it).
+WinPython is a portable distribution of Python. In other words, even if it provides a working Python environment, WinPython does **not** install Python on your machine.
 
-That's why I wrote the WinPython Package Manager (WPPM), a Python program handling package managing tasks (install, uninstall or upgrade packages) for a portable Python distribution.
+To install package on Winpython:
+- either launch "WinPython Command Prompt" and use the standard PIP Python package manager,
+- either download a packages from pypi.io or http://www.lfd.uci.edu/~gohlke/pythonlibs/ , and install them via the graphical WinPython Package Manager "WinPython Control Panel".
+
+The WinPython Package Manager (WPPM) may be removed in the future, when "PIP" will get a standard Graphic User Interface. , a Python program handling package managing tasks (install, uninstall or upgrade packages) for a portable Python distribution.
 
 ## WPPM currently supports the following Python package formats:
+* [Standard PIP package](https://pypi.org/) -- ** .whl, .zip, .tar.gz**
+* (soon deprecated) [Standard executable installers]: -- ** .exe files ** (filename has the form: foo-1.0.win32-py2.7.exe)
 
-* Standard executable installers: [distutils wininst](http://docs.python.org/distutils/builtdist.html#creating-windows-installers) (installer filename has the form: foo-1.0.win32-py2.7.exe)
-* Standard source distributions[1]: [distutils sdist](http://docs.python.org/distutils/sourcedist.html) (archive filename has the form: foo-1.0.tar.gz) -- **but only for pure-Python packages**
-
-[1] This feature was implemented in WPPM v0.2dev included in WinPython v2.7.3.0beta3
 
 ## Get Python packages
 
@@ -20,6 +22,11 @@ WPPM GUI frontend
 
 WPPM has a GUI frontend which is known as the [WinPython Control Panel](https://github.com/winpython/winpython/wiki/Winpython-Control-Panel).
 
+
+## One (optional) Exception: PIP Package itself
+to update PIP package itself and keep WinPython as a movable directory:
+- launch Winpython provided "scripts\upgrade_pip.bat"
+- or , after PIP upgrade, launch "scripts\make_winpython_movable.bat"
 
 ***
 Old wiki page: http://sourceforge.net/p/winpython/wiki/WPPM/
