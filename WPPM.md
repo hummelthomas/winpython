@@ -28,5 +28,7 @@ to update PIP package itself and keep WinPython as a movable directory:
 - launch Winpython provided "scripts\upgrade_pip.bat"
 - or , after PIP upgrade, launch "scripts\make_winpython_movable.bat"
 
+if you do a standard PIP upgrade (or launch "scripts\make_winpython_fix.bat"), all is good as long as you don't move the WinPython directory
+
 ***
 Old wiki page: http://sourceforge.net/p/winpython/wiki/WPPM/
