@@ -4,8 +4,14 @@ Releases
 Current stable releases:
 
 - `WinPython 2.7 <http://sourceforge.net/projects/stonebig.u/files/Winpython_2.7>`_
-- `WinPython 3.3 <http://sourceforge.net/projects/stonebig.u/files/Winpython_3.3>`_
 - `WinPython 3.4 <http://sourceforge.net/projects/stonebig.u/files/Winpython_3.4>`_
+- `WinPython 3.5 <http://sourceforge.net/projects/stonebig.u/files/Winpython_3.5>`_
+- `WinPython 3.5 <http://sourceforge.net/projects/stonebig.u/files/Winpython_3.6>`_
+
+Minimal releases, WinPythonZERO:
+- do Provide only a minimimal subset: tkinter, pyodbc, pythonnet, ...
+- do exist also for `WinPython 2.7 <http://sourceforge.net/projects/stonebig.u/files/Winpython_2.7>`_
+
 
 Flavors
 #######
