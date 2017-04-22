@@ -5,7 +5,7 @@ WinPython [Package and Changelogs](https://github.com/winpython/winpython/tree/m
 
 WinPython Branch | Description
 ----------|------------
-WinPython 3.6Qt5 Status | Maturing (will become the default in Q1 2017)
+WinPython 3.6Qt5 Status | Maturing (will become the default in Q2 2017)
 WinPython 3.5Qt5 Status | Mature
 WinPython 3.6 (Qt4) Status | Retired (direct support ended April 2017)
 WinPython 3.5 (Qt4) Status | Retired (support ended November 2016) 
